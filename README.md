@@ -25,7 +25,7 @@ Risk Mitigation: Reduces costly rework, prevents scope creep, and lowers the ris
 
 Alignment: Ensures everyone involved has a shared understanding of the project's goals.
 
-Why is Requirement Analysis important ?
+## Why is Requirement Analysis important ?
 
 Key Reasons Why Requirement Analysis is Critical in SDLC
 Provides a Solid Foundation (Blueprint for Development):
@@ -44,7 +44,7 @@ Quality: Leads to a higher quality product that truly meets user needs.
 
 In essence, it's about building the right product by thoroughly understanding what needs to be built before starting development.
 
-[Key activities in the Requirements Analysis] 
+## Key activities in the Requirements Analysis 
 
 The Requirement Analysis phase is a comprehensive process that involves several interconnected activities to ensure a thorough understanding of stakeholder needs. While terminology can sometimes overlap, here are five distinct and crucial activities:
 
@@ -85,8 +85,8 @@ Techniques: Using a requirements traceability matrix, version control for requir
 
 These five activities work in concert to build a robust and reliable foundation for successful software development.
 
-[Differentiate between functional and non-functional requirements] 
-[Types of requirements ]
+## Differentiate between functional and non-functional requirements
+### Types of requirements 
 
 Functional and Non-functional Requirements for a Booking Management Project
 In the context of the provided hotel booking app case study, understanding the system's requirements is crucial. Requirements specify what the system does (functional) and how well it does it (non-functional).
@@ -149,7 +149,7 @@ Description: The system shall provide a smooth and intuitive flow for users, fro
 
 Case Study Link: "provide such a smooth flow, from hotel listing to booking, to payments." "Here managers have a separate portal to access the data and update it." "Here customers have a separate portal to access the data and process it."
 
-[Acceptence Criteria]
+## Acceptence Criteria
 
 Importance of Acceptance Criteria in Requirement Analysis
 Acceptance Criteria are a set of predefined conditions that a software system or feature must satisfy to be accepted by a user, customer, or other stakeholders. They are typically written from the user's perspective and define the "conditions of satisfaction" for a given requirement or user story.
