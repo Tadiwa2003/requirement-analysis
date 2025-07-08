@@ -165,4 +165,100 @@ Maintainability: The system's code shall adhere to industry-standard coding guid
 Portability: The system shall be compatible with both Windows and macOS operating systems.
 
 ## Use Case Diagrams 
+Use Case Diagrams are a type of behavioral diagram in the Unified Modeling Language (UML) that illustrate the functional requirements of a system. They capture the high-level functionality of a system and the interactions between users (actors) and the system's functions (use cases).
 
+In essence, a use case diagram shows:
+
+What a system does from an external user's perspective.
+
+Who interacts with the system (actors).
+
+What functionalities are available to those actors (use cases).
+
+They do not detail how the system implements these functionalities, but rather what the system is supposed to accomplish. This makes them excellent for initial requirements gathering and communicating system scope to both technical and non-technical
+
+The image can be found on the following Use Case Diagrams are a type of behavioral diagram in the Unified Modeling Language (UML) that illustrate the functional requirements of a system. They capture the high-level functionality of a system and the interactions between users (actors) and the system's functions (use cases).
+
+In essence, a use case diagram shows:
+
+What a system does from an external user's perspective.
+
+Who interacts with the system (actors).
+
+What functionalities are available to those actors (use cases).
+The image url is as follows ![Professional Use Case Diagram for a Booking System](http://googleusercontent.com/image_generation_content/2 "UML Use Case Diagram for Booking System")
+
+## Acceptance Criteria 
+Importance of Acceptance Criteria in Requirement Analysis
+Acceptance Criteria are crucial in Requirement Analysis because they define the precise conditions that a solution must satisfy to be accepted by stakeholders. They essentially serve as the "definition of done" for a specific feature or requirement, ensuring clarity, reducing ambiguity, and providing a measurable basis for validation.
+
+Here's why they are critical:
+
+Clarity and Shared Understanding: Acceptance criteria translate broad requirements into concrete, understandable statements. This eliminates guesswork, ensuring everyone involved – from product owners and developers to testers – has a consistent and unambiguous understanding of what needs to be built and what "success" looks like.
+
+Enabling Testability: Each acceptance criterion is designed to be testable. They provide specific conditions that quality assurance (QA) teams can use to create test cases, verify functionality, and confirm that the developed feature meets the agreed-upon standards. Without them, testing can be subjective and incomplete.
+
+Reducing Ambiguity and Rework: By specifying the exact behavior and outcomes, acceptance criteria minimize misinterpretations and assumptions during development. This significantly reduces the likelihood of building the wrong thing, thereby preventing costly rework, delays, and wasted resources in later stages of the SDLC.
+
+Facilitating User Acceptance Testing (UAT): Acceptance criteria form the foundation for User Acceptance Testing. Stakeholders can directly compare the developed feature against these criteria to determine if it truly meets their business needs and is fit for purpose. This helps ensure user satisfaction before deployment.
+
+Example of Acceptance Criteria for a "Checkout" Feature in a Booking Management System
+Feature: As a Customer, I want to be able to securely complete my booking and pay for my selected services, so that my reservation is confirmed.
+
+Acceptance Criteria:
+
+AC1: Successful Payment Processing
+
+Given a customer has items in their cart and proceeds to checkout.
+
+When the customer provides valid payment details (e.g., credit card number, expiry, CVV).
+
+And the payment gateway successfully processes the transaction.
+
+Then the system shall display a "Payment Successful" message.
+
+And the system shall mark the booking as "Confirmed."
+
+And the system shall send an email confirmation to the customer with booking details.
+
+And the system shall reduce the availability of the booked service/item.
+
+AC2: Failed Payment Handling
+
+Given a customer has items in their cart and proceeds to checkout.
+
+When the customer provides invalid payment details (e.g., expired card, incorrect CVV).
+
+Or the payment gateway declines the transaction.
+
+Then the system shall display an "Payment Failed" error message.
+
+And the system shall instruct the customer to try again or use a different payment method.
+
+And the booking status shall remain "Pending" or "Unconfirmed."
+
+AC3: Order Summary Review
+
+Given a customer has selected items and proceeds to checkout.
+
+When the customer reaches the payment page.
+
+Then the system shall display a clear summary of all items in the cart, including service name, date/time, quantity, unit price, and total amount.
+
+AC4: Secure Payment Information Handling
+
+Given a customer enters payment information (e.g., credit card details).
+
+Then the system shall transmit all payment data using HTTPS (SSL/TLS encryption).
+
+And the system shall not store full credit card numbers in its database.
+
+AC5: Empty Cart Prevention
+
+Given a customer's cart is empty.
+
+When the customer attempts to proceed to checkout.
+
+Then the system shall prevent navigation to the checkout page.
+
+And the system shall display a message indicating the cart is empty.
